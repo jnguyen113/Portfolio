@@ -1,40 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
 <head>
-    <title>Johnathan Nguyen</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <TITLE>Johnathan Nguyen's Web Page</TITLE>
 </head>
 
-<body class="body">
-    <div class="wrapper">
-        <div class="left">
-            <img class="profile-pic" src="Wallpaper.jpg" width="200" />
-            <h1 class="name">Johnathan Nguyen</h1>
-            <h4 class="subtitle">CS Student</h4>
-        </div>
+<body>
 
-        <div class="right">
-            <p class="bio">
-                Welcome to my portfolio, I am a upcoming senior studying
-                Computer Science at Georgia State University. In this portfolio,
-                I wanted to share how I learned to code and the projects that I have
-                been working on over the Summer of 2020. I have attached my LinkedIn
-                and Github in the top right hand corner. Feel free to explore!
-            </p>
-            <ul class="social-links">
+    <div id="heading">
+        <!---Heading of web page-->
+        <div id="heading1" class="textJS"></div>
+        <script>
+            //typed.js https://mattboldt.com/demos/typed-js/
+            var items = document.querySelectorAll('#heading1');
+            for (var i = 0, len = items.length; i < len; i++) {
+                (function () {
+                    var e = this, t = JSON.parse('["Johnathan Nguyen\'s Portfolio"]'), r = function (e) {
+                        return parseInt(e, 10) || 0
+                    }
+                        , n = function (e) {
+                            return !!e
+                        }
+                        , o = function () {
+                            var o = e;
+                            o.innerHTML = '<span></span>';
+                            var c = parseInt('Infinity', 10), s = {
+                                typeSpeed: r('40'), startDelay: r(''), backDelay: r('700'), backSpeed: r(''), smartBackspace: n('true'), fadeOut: n(''), fadeOutClass: 'typed-fade-out', fadeOutDelay: r('500'), shuffle: n(''), loop: n(''), loopCount: isNaN(c) ? 1 / 0 : c, showCursor: n('true'), cursorChar: '|', autoInsertCss: n('true'), bindInputFocusEvents: n(''), attr: '', contentType: 'html'
+                            };
+                            t && t.length && (s.strings = t), new Typed(o.children[0], s)
+                        };
+                    if (window.Typed) o();
+                    else {
+                        var c = document.createElement('script');
+                        c.src = 'https://cdn.jsdelivr.net/npm/typed.js@2.0.11', c.onload = o, document.head.appendChild(c)
+                    }
+                }
+                    .bind(items[i]))();
+            }
+        </script>
+    </div>
+    <div id="entirebody">
+        <h2>Welcome to my portfolio, I graduated Georgia State University as a Computer Science major. In this
+            portfolio,I wanted to share how I learned to code and highlight some of my projects. I have attached my
+            LinkedIn and Github in the top right hand corner. Below this are some of the projects that
+            I have worked on by myself or school projects. Feel free to explore!</h2>
 
-                <li><a href="https://www.linkedin.com/in/johnathan-nguyen-001768147"
-                        class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                <li><a href="https://github.com/jnguyen113" class="icon brands fa-github"><span
-                            class="label">GitHub</span></a></li>
 
-            </ul>
+        <div id="container">
+            <div id="aboutme">
+                <a href="aboutme.html">
+                    <h3> About Me </h3>
+                    <img src="images/headshot.jpg" alt="headshot">
+                    <p> In this tab, I share with you my what sparked my interest into Web Development
+                        and how I recovered from losing an internship during Covid-19. </p>
+                </a>
+
+            </div>
+
+            <div id="personalProjects">
+                <a href="personalProjects.html">
+                    <h3> Personal Projects </h3>
+                    <img src="https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        alt="coding">
+                    <p> These are the projects that I began to personally learn Web
+                        Development before taking the class. Feel Free to explore. </p>
+                </a>
+
+            </div>
+
+
+            <div id="schoolwork">
+                <a href="schoolwork.html">
+                    <h3> Schoolwork </h3>
+                    <img src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
+                        alt="school">
+                    <p> Here are the my assignments and projects that I want to
+                        showcase. </p>
+                </a>
+
+            </div>
         </div>
     </div>
+
+
+
+    <footer id="footer">
+        <section class="contact-info">
+            <section>
+                <h3>Contact and Extra Links</h3>
+                <ul class="icons alt">
+                    <li><a href="#"><span class="label">johnathan.nguyen1999@gmail.com</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/johnathan-nguyen-001768147"><span
+                                class="label">LinkedIn</span></a></li>
+                    <li><a href="https://github.com/jnguyen113">
+                            <spanclass="label">GitHub</span>
+                        </a></li>
+                </ul>
+            </section>
+        </section>
+    </footer>
+
+
 </body>
 
 </html>
