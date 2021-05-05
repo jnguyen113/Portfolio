@@ -21,6 +21,7 @@ body{
     width: 80%;
     color: white;
     text-align: center;
+    margin-bottom: 2em;
 }
 
 h3{
@@ -29,15 +30,15 @@ h3{
 }
 
 #entirebody{
-    margin: auto;
-    height: 700px;
-    width: 95%;
-    padding: 1em;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
 }
 
 #container{
-    margin-left: 3em;
+    display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 #container a{
@@ -50,20 +51,16 @@ h3{
 }
 #container img{
     text-align: center;
-    height: 60%;
+    height: 400px;
     width: 100%;
     border-radius: 5%;
-    opacity: 1.0;
 }
 
-img:hover{
-    transform: scale(1.05);
-}
 
 #aboutme, #personalProjects, #schoolwork{
     background-color: rgba(128, 128, 128, 0.699);
     width: 25%;
-    height: 520px;
+    height: 550px;
     margin: 20px;
     float: left;
     border: 5px solid white;
@@ -71,6 +68,13 @@ img:hover{
     padding: 1em;
 }
 
+p{
+    font-size: 17px;
+}
+
+#aboutme:hover, #personalProjects:hover, #schoolwork:hover{
+    transform: scale(1.1);
+}
 
 #links{
     position: absolute;
