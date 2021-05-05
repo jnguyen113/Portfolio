@@ -1,12 +1,13 @@
 #heading1{
     font-size: 70px;
+    margin-bottom: 10px;
 }
 
 body{
-    background-image: url('../images/sky.webp') ;
+    background-image: url('https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1778&q=80') ;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #heading{
@@ -14,13 +15,11 @@ body{
     text-align: center;
 }
 
-
-
-h2{
+.description{
     margin: auto;
     font-size: 20px;
     width: 80%;
-    color: black;
+    color: white;
     text-align: center;
 }
 
@@ -31,33 +30,30 @@ h3{
 
 #entirebody{
     margin: auto;
-    border: 5px solid white;
     height: 700px;
     width: 95%;
-    border: 5px solid white;
-    background-color: rgb(182, 182, 182);
-    opacity: 80%;
     padding: 1em;
 }
 
 #container{
-    width: 80%;
-    margin: auto;
-    color: black;
+    margin-left: 3em;
+    width: 100%;
 }
 
 #container a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #container a:hover{
     transform: scale(1.2);
 }
 #container img{
-    height: 320px;
-    width: 410px;
+    text-align: center;
+    height: 60%;
+    width: 100%;
     border-radius: 5%;
+    opacity: 1.0;
 }
 
 img:hover{
@@ -65,20 +61,28 @@ img:hover{
 }
 
 #aboutme, #personalProjects, #schoolwork{
-    background-color: rgba(128, 128, 128, 0.575);
-    width: 410px;
-    height: 500px;
-    margin: 10px;
+    background-color: rgba(128, 128, 128, 0.699);
+    width: 25%;
+    height: 520px;
+    margin: 20px;
     float: left;
     border: 5px solid white;
-    border-radius: 5%;
+    border-radius: 3%;
     padding: 1em;
 }
 
 
-#footer{
+#links{
     position: absolute;
-    bottom: 0;
-    left: 0;
-    overflow: auto;
+    top: 0;
+    right: 0;
+}
+
+#links img{
+    height: 50px;
+    width: 50px;
+}
+
+#links img:hover{
+    transform: scale(1.2);
 }
