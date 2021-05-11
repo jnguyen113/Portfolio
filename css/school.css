@@ -1,27 +1,23 @@
 h1{
     font-size: 70px;
     margin-bottom: 10px;
+    color: white;
+    text-align: center;
 }
 
 body{
-    background-image: url('https://media.gettyimages.com/videos/smooth-clean-and-abstract-looped-gradient-background-4k-video-for-video-id1146013421?s=640x640') ;
+    background-image: url('https://images.unsplash.com/photo-1502657877623-f66bf489d236?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80') ;
     background-size: cover;
     background-repeat: no-repeat;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#heading{
-    color: white;
+#container p{
     text-align: center;
-}
-
-.description{
-    margin: auto;
     font-size: 20px;
-    width: 80%;
     color: white;
-    text-align: center;
-    margin-bottom: 2em;
+    width: 80%;
+    margin: auto;
 }
 
 h3{
@@ -41,28 +37,10 @@ h3{
     position: relative;
 }
 
-
-#container a{
-    text-decoration: none;
-    color: white;
-}
-
-#container a:hover{
-    transform: scale(1.2);
-}
-
-#container img{
-    text-align: center;
-    height: 420px;
-    width: 100%;
-    border-radius: 5%;
-}
-
-
-#rps, #calc, #etch, #todo, #formpage, #slideshow, #bibleQuotes {
+#wp1, #wp2, #wp3, #wp4, #madproj, #sweproj{
     background-color: rgba(128, 128, 128, 0.699);
     width: 25%;
-    height: 590px;
+    height: 600px;
     margin: 20px;
     display: inline-block;
     vertical-align: top;
@@ -71,12 +49,24 @@ h3{
     padding: 1em;
 }
 
-p{
+#wp1 p, #wp2 p, #wp3 p, #wp4 p, #madproj p, #sweproj p{
     font-size: 17px;
+    width: 100%;
 }
 
-#rps:hover, #calc:hover, #etch:hover, #todo:hover, #formpage:hover, #slideshow:hover, #bibleQuotes:hover{
-    transform: scale(1.1);
+iframe{
+    border: 2px solid white;
+    border-radius: 5%;
+}
+
+video{
+    border: 2px solid white;
+    border-radius: 5%;
+}
+
+#sweproj img{
+    border: 2px solid white;
+    border-radius: 5%;
 }
 
 #links{
