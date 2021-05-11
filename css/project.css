@@ -30,16 +30,14 @@ h3{
 }
 
 #entirebody{
-    position: relative;
     text-align: center;
     margin: 0 auto;
     width: 100%;
 }
 
 #container{
-    left: 7%;
-    right: 5%;
-    width: 100%;
+    display: inline-block;
+    justify-content: center;
     position: relative;
 }
 
@@ -66,7 +64,9 @@ h3{
     width: 25%;
     height: 590px;
     margin: 20px;
-    float: left;
+    display: inline-block;
+    vertical-align: top;
+
     border: 5px solid white;
     border-radius: 3%;
     padding: 1em;

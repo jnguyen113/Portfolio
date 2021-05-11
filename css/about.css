@@ -14,8 +14,8 @@ body{
 }
 
 #heading img{
-    height: 480px;
-    width: 500px;
+    height: 30%;
+    width: 27%;
     border: 2px solid white;
     border-radius: 5%;
 }
@@ -23,8 +23,6 @@ body{
 #grad, #headshot, #gradmask{
     margin-bottom: 2em;
 }
-
-
 
 #container{
     border: 5px solid white;
