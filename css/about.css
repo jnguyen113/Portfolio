@@ -40,6 +40,10 @@ body{
     margin: auto;
 }
 
+#aboutme p{
+    line-height: 1.6;
+}
+
 #hyo{
     text-align: center;
     color: white;
