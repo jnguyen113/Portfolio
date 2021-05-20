@@ -52,6 +52,8 @@ h3{
 #wp1 p, #wp2 p, #wp3 p, #wp4 p, #madproj p, #sweproj p{
     font-size: 17px;
     width: 100%;
+    vertical-align: auto;
+    padding: 30px 0;
 }
 
 iframe{
