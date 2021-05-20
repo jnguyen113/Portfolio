@@ -60,7 +60,7 @@ h3{
 #aboutme, #personalProjects, #schoolwork{
     background-color: rgba(128, 128, 128, 0.699);
     width: 25%;
-    height: 570px;
+    height: 50%;
     margin: 20px;
     float: left;
     border: 5px solid white;

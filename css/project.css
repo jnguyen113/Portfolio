@@ -62,7 +62,7 @@ h3{
 #rps, #calc, #etch, #todo, #formpage, #slideshow, #bibleQuotes {
     background-color: rgba(128, 128, 128, 0.699);
     width: 25%;
-    height: 590px;
+    height: 60%;
     margin: 20px;
     display: inline-block;
     vertical-align: top;
